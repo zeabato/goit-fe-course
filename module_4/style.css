@@ -38,33 +38,30 @@ a {
   padding-right: 25px;
 }
 h2{
+  position: relative;
   font-family: "RobotoBlack";
   font-size: 48px;
   color: rgba(81, 81, 81, 1);
   text-transform: uppercase;
   text-align: center;
   padding-top: 33px;
+  margin-bottom: 100px;
+}
+
+h2::after{
+  content:  ' ';
+  position: absolute;
+  left: 50%; 
+  transform: translateX(-85px);
+  width: 160px;
+	height: 8px;
+  background: rgba(87, 185, 157, 1);
+  bottom: -32px;
 }
 .h2news{
   margin-top: 875px;
 }
 
-.bold{
-  border: none; /* Убираем границу */
-  background-color:rgba(87, 185, 157, 1);
-  height: 7px; 
-  width: 160px;
-  margin-bottom: 60px;
-  margin-left: 455px;
-}
-.thin{
-  border: none; /* Убираем границу */
-  background-color:rgba(87, 185, 157, 1);
-  height: 4px; 
-  width: 130px;
-  margin-bottom: 30px;
-  margin-left: 0px;
-}
 .shop{
   float: left;
   margin-right: 15px;
@@ -153,7 +150,20 @@ h3{
   font-family: "OpenSansSemiBold";
   font-size: 18px;
   color: rgba(85, 82, 82, 1);
+  margin-bottom: 30px;
 }
+
+h3::after  {
+    
+    content:  ' '; 
+    position: absolute;
+    background-color:rgba(87, 185, 157, 1);
+    height: 4px; 
+    width: 130px;
+    bottom: -705px;
+    transform: translateX(-265px);
+   
+  }
 p{
   font-family: "OpenSansRegular";
   font-size: 14px;
@@ -162,11 +172,11 @@ p{
 
 .RM{
   margin-top: -4px;
-  text-align: center;
+  padding-top: 10px;
   font-size: 20px;
   line-height: 170%;
   border: 0px solid;
-  height: 50px;
+  height: 40px;
   width: 160px;
   float: left;
   text-align: center;
@@ -179,11 +189,11 @@ p{
 }
 .RM:hover{
   margin-top: -4px;
-  text-align: center;
+  padding-top: 10px;
   font-size: 20px;
   line-height: 170%;
   border: 0px solid;
-  height: 50px;
+  height: 40px;
   width: 160px;
   float: left;
   text-align: center;
