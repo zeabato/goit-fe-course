@@ -1,7 +1,9 @@
 header, main{
-  margin-left: 215px;
-  margin-right: 215px; 
+  width: 1170px;
+  margin-left: 150px;
+  margin-right: 150px; 
   margin-top: 25px;
+
 }
 li{
   display: inline;
