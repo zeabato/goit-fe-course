@@ -308,5 +308,5 @@ footer{
 }
 @font-face{
   font-family: "OpenSansBold";
-    src: url("fonts/OpenSans-Bold.ttf") format("truetype"); 
+  src: url("fonts/OpenSans-Bold.ttf") format("truetype"); 
 }
