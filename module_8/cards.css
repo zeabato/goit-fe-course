@@ -1,0 +1,91 @@
+
+.user_photo{
+    position: relative;
+    width: 121px;
+    height: 121px;
+    object-fit: cover;
+}
+.user_photo::after{
+    content: "";
+    width: 37px;
+    height: 37px;
+    border: 4px solid seashell;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url('./img/tv.png');
+    background-color: red;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+
+    bottom: 0;
+    right: 0;
+}
+
+.user_photo2{
+    position: relative;
+    width: 121px;
+    height: 121px;
+    object-fit: cover;
+}
+.user_photo2::after{
+    content: "";
+    width: 37px;
+    height: 37px;
+    border: 4px solid seashell;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url('./img/chemical.png');
+    background-color: #ffa507;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+
+    bottom: 0;
+    right: 0;
+}
+
+.user_photo3{
+    position: relative;
+    width: 121px;
+    height: 121px;
+    object-fit: cover;
+}
+.user_photo3::after{
+    content: "";
+    width: 37px;
+    height: 37px;
+    border: 4px solid seashell;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url('./img/coffe.png');
+    background-color:#1cd7ad;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+
+    bottom: 0;
+    right: 0;
+}
+.user_photo4{
+    position: relative;
+    width: 121px;
+    height: 121px;
+    object-fit: cover;
+}
+.user_photo4::after{
+    content: "";
+    width: 37px;
+    height: 37px;
+    border: 4px solid seashell;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url('./img/fly.png');
+    background-color:#4e73db;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+
+    bottom: 0;
+    right: 0;
+}

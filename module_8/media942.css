@@ -1,0 +1,23 @@
+@media screen and (min-width: 948px){
+  .cards{
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .cards_item{
+      width: calc(25% - 20px);
+  }
+  .cards_item:nth-child(1){
+    order: 1;
+  }
+  .cards_item:nth-child(2){
+    order: 3;
+  }
+  .cards_item:nth-child(3){
+    order: 2;
+  }
+  .cards_item:nth-child(4){
+    order: 4;
+  }
+}

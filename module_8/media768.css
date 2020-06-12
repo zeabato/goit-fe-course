@@ -1,0 +1,75 @@
+@media screen and (min-width: 768px) {
+  .logo_small{
+      display: none;
+  }
+  header{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+  .navigation{
+      width: 95%;
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .top_btn{
+      width: 80px;
+      height: 33px;
+  }
+  .top_text{
+      margin-top: 130px;
+
+  }
+  h1{
+      width: 500px;
+      font-size: 50px;
+  }
+  .top {
+      background-image: url(./img/main_tablet.png);
+      background-color: rgba(0, 0, 0, .7);
+  }
+  .slogan{
+      margin-top: 30px;
+  }
+  .top{
+      height: 700px;
+  }
+  .slogan{
+      margin: 40px 50px 0 50px;
+      font-size: 24px;
+      font-family: RobotoLight;
+      color: white;
+      text-align: center;
+  }
+  .tittle_main{
+      max-width: 100%;
+  }
+  .cards{
+      width: 492px;
+      display: flex;
+      flex-wrap: wrap; 
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .cards_item{
+      width: calc(50% - 20px);
+  }
+  .logo_big{
+      font-size: 20px;
+      font-family: "MontserratBold";
+      color: white;
+  }
+  .cards_item:nth-child(1){
+    order: 1;
+  }
+  .cards_item:nth-child(2){
+    order: 3;
+  }
+  .cards_item:nth-child(3){
+    order: 2;
+  }
+  .cards_item:nth-child(4){
+    order: 4;
+  }
+}

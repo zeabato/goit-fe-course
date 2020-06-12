@@ -1,0 +1,135 @@
+        body {
+        margin: 0;
+    }
+    
+    .top {
+        background-image: url(./img/main_mob.png);
+        background-color: rgba(0, 0, 0, .7);        
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 540px;
+    }
+    .navigation{
+        margin-top: 25px;
+    }
+    .top_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 175px;
+    }
+    
+    .top_btn{
+        width: 90px;
+        height: 37px;
+        border: none;
+        border-radius: 15px;
+        background: rgba(255, 255, 255, .0);
+        font-size: 14px;
+        color: white;
+        font-family: "MontserratBold";
+    }
+    .top_btn:hover{
+        border: 2px solid rgba(255, 255, 255, 1);
+    }
+    .logo_small{
+        font-size: 20px;
+        color: white;
+        font-family: "MontserratBold";
+    }
+    h1{
+        margin: 30px 0 0 0;
+        font-size: 30px;
+        color: white;
+        font-family: "MontserratBold";
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .slogan{
+        margin: 10px 50px 0 50px;
+        font-size: 18px;
+        font-family: RobotoLight;
+        color: white;
+        text-align: center;
+    }
+    .top_down_btn{
+        width: 280px;
+        height: 40px;
+        border: 2px solid #ff4e50;
+        border-radius: 20px;
+        background: #ff4e50;
+        font-size: 14px;
+        color: white;
+        font-family: "MontserratBold";
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .top_down_btn:hover{
+        background: none; 
+        color: #ff4e50 ;
+    }
+    .tittle_main{
+        max-width: 350px;
+        display: block;
+        margin: 75px 25px 0 25px;
+        text-align: center;
+        font-size: 21px;
+        font-family: "MontserratBold";
+    }
+    
+    .main {
+        display: flex;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards {
+        
+        display: flex;
+        width: 220px;
+        height: auto;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .cards_item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .name_user{
+        margin: 20px 0 0 0;
+        text-align: center;
+        font-size: 14px;
+        font-family: "MontserratBold";
+        color: #333333;
+    }
+    .about_user{
+        margin: 25px 0 30px 0;text-align: center;
+        font-size: 14px;
+        font-family: "RobotoLight";
+        color: #666666;
+    }
+
+    
+    
+    @media screen and (max-width: 768px){
+        .logo_big{
+            display: none;
+        }
+    }
+
+    
+    
+    @font-face{
+        font-family: "MontserratBold";
+        src: url("fonts/Montserrat-Bold.ttf") format("truetype");
+    }
+    @font-face{
+        font-family: "RobotoLight";
+        src: url("fonts/Roboto-Light.ttf") format("truetype");
+      }
