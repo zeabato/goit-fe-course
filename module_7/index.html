@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goit-lviv-hw-07</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-home container">
+        <a class="logo" href="./">golden</a>
+        <ul class="nav-site list-none">
+          <li class="nav-site__item">
+            <a href="./" class="nav-site__link">home</a>
+          </li>
+          <li class="nav-site__item">
+            <a href="./" class="nav-site__link">services</a>
+          </li>
+          <li class="nav-site__item">
+            <a href="./" class="nav-site__link">portfolio</a>
+          </li>
+          <li class="nav-site__item">
+            <a href="./" class="nav-site__link">about</a>
+          </li>
+          <li class="nav-site__item">
+            <a href="./" class="nav-site__link">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h2 class="section__title">services</h2>
+          <p class="section__subtitle">
+            Proin iaculis purus consequat sem cure.
+          </p>
+          <ul class="post list-none">
+            <li class="post__item">
+              <svg class="post__icon">
+                <use href="./images/icon-sprite.svg#basket"></use>
+              </svg>
+              <h3 class="post__title">E-Commerce</h3>
+              <p class="post__text">
+                Proin iaculis purus consequat sem cure digni ssim. Donec
+                porttitora entum suscipit aenean rhoncus posuere odio in
+                tincidunt
+              </p>
+            </li>
+            <li class="post__item">
+              <svg class="post__icon">
+                <use href="./images/icon-sprite.svg#comp"></use>
+              </svg>
+              <h3 class="post__title">Responsive Web</h3>
+              <p class="post__text">
+                Proin iaculis purus consequat sem cure digni ssim. Donec
+                porttitora entum suscipit aenean rhoncus posuere odio in
+                tincidunt
+              </p>
+            </li>
+            <li class="post__item">
+              <svg class="post__icon">
+                <use href="./images/icon-sprite.svg#look"></use>
+              </svg>
+              <h3 class="post__title">Web Security</h3>
+              <p class="post__text">
+                Proin iaculis purus consequat sem cure digni ssim. Donec
+                porttitora entum suscipit aenean rhoncus posuere odio in
+                tincidunt
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-footer">
+        <div class="container">
+          <h2 class="section__title section__title--difcolor">Contact Us</h2>
+          <p class="section__subtitle">
+            Proin iaculis purus consequat sem cure.
+          </p>
+
+          <form class="form" action="#" name="reg-form" method="GET">
+            <div class="form__inputs">
+              <div class="inputs">
+                <input
+                  class="input"
+                  name="user-name"
+                  placeholder="your name *"
+                  type="text"
+                  pattern="^[a-zA-Z]+$"
+                  required
+                />
+                <input
+                  class="input"
+                  name="user-mail"
+                  placeholder="your e-mail *"
+                  type="email"
+                  minlength="10"
+                  required
+                />
+                <input
+                  class="input"
+                  name="user-subject"
+                  placeholder="subject"
+                  type="text"
+                />
+              </div>
+
+              <div class="">
+                <textarea
+                  class="input__text"
+                  name="user-message"
+                  placeholder="your message *"
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <button class="form__btn" type="submit">send message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
